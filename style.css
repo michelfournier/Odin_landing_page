@@ -1,5 +1,108 @@
 body {
     display: flex;
+    flex-direction: column; 
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    gap: 50px;
+}
+
+.top-left {
+    display: flex;
     flex-direction: column;
-   
+    align-items: flex-start;
+}
+
+.top-right {
+    display: flex;
+}
+
+.top-placeholder {
+    width: 300px;
+    height: 100px;
+    background-color: darkgray;
+}
+
+.random-info {
+    text-align: center;
+    
+}
+
+.boxes {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 25px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 24px;
+
+}
+
+.thor {
+    text-align: end;
+    font-size: 16px;
+    font-weight: 900;
+    margin-top: 0;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.btm-ins-box {
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+}
+
+.btm-box-left {
+}
+
+.btm-box-right {
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    
 }
